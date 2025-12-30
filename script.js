@@ -1,9 +1,5 @@
-// mapboxgl.accessToken = 'pk.eyJ1IjoicmFoZWVzYWhtYWQiLCJhIjoiY2toZDFjdzM5MXRhZzJ4bnFtdWd5eGw4cCJ9.vqTK9u5siCCnK87TmtldbQ';
-// var map = new mapboxgl.Map({
-// 	container: 'map',
-// 	style: 'mapbox://styles/mapbox/streets-v11'
-// });
-mapboxgl.accessToken = 'pk.eyJ1IjoicmFoZWVzYWhtYWQiLCJhIjoiY2toZDFjdzM5MXRhZzJ4bnFtdWd5eGw4cCJ9.vqTK9u5siCCnK87TmtldbQ';
+
+mapboxgl.accessToken = ''; // ADD YOUR MAPBOX TOKEN HERE
 
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
 	enableHighAccuracy: true
